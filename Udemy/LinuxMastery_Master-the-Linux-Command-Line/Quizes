@@ -1,0 +1,36 @@
+#Teste 1 : Terminal Concepts Quiz
+The Sell is what interprets commands for meaning when they are submitted through the terminal?
+(x) True
+
+Linux Commands follow a CommandName -options Inputs Structure
+(x) True
+
+
+Some Commands can have long form and short form options.
+(x) True
+
+Long form options have one dash (-) and short form options have two dashes (--)
+(x) False
+
+#Teste 2 : Linux Manual Quiz
+How would you open the manual page for a command called updatedb from section 8 of the manual?
+(x) man 8 updatedb
+
+If a specific section is not specified, which section of the manual will the man command search first?
+(X) Section 01 - User Commands
+
+#Teste 03 : Command Input + Output Quiz
+How many ways in total are there to get data into and out of command?
+(x) 4 : There are 2 Inputs and 2 Outputs which totals 4.
+
+Which Answer Only Contains Data Streams
+(x) Standard Output, Standard Input and Standar Error.
+
+What is Standard Output Connected to By Default?
+(x) Your Terminal
+
+What is Standard Error Connected to by Default?
+(x) The Terminal
+
+What is the Standard Input Data Stream Connected to by default?
+(x) The keyboard
