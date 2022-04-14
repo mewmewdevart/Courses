@@ -1,36 +1,53 @@
-#Teste 1 : Terminal Concepts Quiz
-The Sell is what interprets commands for meaning when they are submitted through the terminal?
+#Teste 01: Terminal Concepts Quiz
+- The Sell is what interprets commands for meaning when they are submitted through the terminal?
 (x) True
-
-Linux Commands follow a CommandName -options Inputs Structure
+- Linux Commands follow a CommandName -options Inputs Structure
 (x) True
-
-
-Some Commands can have long form and short form options.
+- Some Commands can have long form and short form options.
 (x) True
-
-Long form options have one dash (-) and short form options have two dashes (--)
+- Long form options have one dash (-) and short form options have two dashes (--)
 (x) False
 
-#Teste 2 : Linux Manual Quiz
-How would you open the manual page for a command called updatedb from section 8 of the manual?
+#Teste 02: Linux Manual Quiz
+- How would you open the manual page for a command called updatedb from section 8 of the manual?
 (x) man 8 updatedb
-
-If a specific section is not specified, which section of the manual will the man command search first?
+- If a specific section is not specified, which section of the manual will the man command search first?
 (X) Section 01 - User Commands
 
 #Teste 03 : Command Input + Output Quiz
-How many ways in total are there to get data into and out of command?
+- How many ways in total are there to get data into and out of command?
 (x) 4 : There are 2 Inputs and 2 Outputs which totals 4.
-
-Which Answer Only Contains Data Streams
+- Which Answer Only Contains Data Streams
 (x) Standard Output, Standard Input and Standar Error.
-
-What is Standard Output Connected to By Default?
+- What is Standard Output Connected to By Default?
 (x) Your Terminal
-
-What is Standard Error Connected to by Default?
+- What is Standard Error Connected to by Default?
 (x) The Terminal
-
-What is the Standard Input Data Stream Connected to by default?
+- What is the Standard Input Data Stream Connected to by default?
 (x) The keyboard
+
+#Teste 04: Redirection Quiz
+- What Stream number is Standard Error?
+(X) 2
+- What Stream Number is Standard Input
+(x) 0
+- What Stream number is Standard Output?
+(x) 1
+- How would you redirect the standard output of the ls  command to a file called output.txt?
+(x) ls > output.txt
+- How would you redirect the standard output of the ls  command to output.txt  but at the same time redirect standard error to error.txt ?
+(x) ls 1> output.txt 2> error.txt
+- What is the difference between >  and >> ?
+(x) > writes to a file but deletes everything that is in the file first (truncate the file). >> appends data to what is already there.
+
+#Teste 05: Piping Quiz
+- What is piping in Linux?
+(x) A way of connectiong commands together.
+(x) A way of passing data from the standard output of one command to the standard input of another.
+(x) Totally awesome.
+- How would I pipe the standard output from command A to the standard input of command B?
+(x) A | B
+- How would we use the tee command when piping together CommandA, CommandB and CommandC to save a snapshot of CommandB's output to snapshot.txt?
+(X) commandA | commandB | tee snapshot.txt | commandC
+- How would I pipe data from CommandA  to CommandB  when CommandB  doesn't accept standard input and only accepts Command Line arguments?
+(x) commandA | xargs commandB
