@@ -51,3 +51,50 @@
 (X) commandA | commandB | tee snapshot.txt | commandC
 - How would I pipe data from CommandA  to CommandB  when CommandB  doesn't accept standard input and only accepts Command Line arguments?
 (x) commandA | xargs commandB
+
+#Teste 06: File system navigation Quiz
+- What is the difference between an absolute file path and a relative file path?
+(x) An absolute file path starts at the root (/) folder and a relative file path starts from the shells current working directory.
+- Which of these is an absolute file path?
+(x) /home/mewmew/Documents/file1.txt
+- What does the pwd command do?
+(x) It prints the path to the current working directory.
+- What would the command ls /home/sam/Documents do?
+(x) It will list out the contents of sam's Documents folder.
+- I run the pwd  command and I see that I am in the /etc/dhcp folder.
+	If I now run the cd  command with no command line arguments, where will the shell go to?
+(x) It will go to the current user's home directory.
+- What happens if we do cd .. 
+(x) The shell moves up one folder.
+
+#Teste 07: Wildcards Quiz
+- Which of these Commands would list all the files in your home directory that ended in .txt  (remembering that ~  means "home directory")
+(X) ls ~/*.txt
+- Which of these regular expressions would match a file named fileA.txt  (6 Possible Choices)
+(x) * , file?.txt , file* , *.txt , file[A-Z].txt
+- Which of these regular expressions would match these files: 
+important_report1A.pdf , important_report1B.pdf , important_report1C.pdf 
+(x) *[0-9][A-Z].pdf
+
+#Teste 08: Creating files and folders Quiz
+- How would you create a new file called report.txt in the Documents folder in your Home Directory? 
+(x) touch ~/Documents/report.txt
+- How would we create a folder called "holiday" in the Pictures directory within our home folder?
+(x) mkdir ~/Pictures/holiday
+- How would we create a folder called A and inside of that, a folder called B and inside of that a folder called C, all in one go?
+(x) mkdir -p A/B/C
+
+#Teste 09: Nano Quiz
+- In Nano, what is the keyboard shortcut to execute ^O ?
+(x) Ctrl + O
+- In nano what is the keyboard shortcut for M-B ?
+(x) ALT + B
+
+#Teste 10: Locate command Quiz
+- The locate  command Uses a database in order to function...
+(x) True
+- You create a new file called important.txt  but it has been 2 hours since your locate  database has been updated. 
+Will the locate  command be able to find important.txt ?
+(x) No!
+- How would you update the database that the locate command uses?
+(x) sudo updatedb
