@@ -112,3 +112,9 @@ Will the locate  command be able to find important.txt ?
 (X) find /etc -maxdepth 4 -type f -size +100k
 - How would you use the find  command to  search for every file below your home directory that is over 5 MebiBytes (MiB) in size and execute the rm  command on the results?
 (X) find ~ -type f -size +5M -exec rm {} \;
+
+#Teste 12: Sorting Quiz
+- The Sort command sorts "largest first" by default (i.e. from Z to A or from 100 to 1)
+(x) False
+- True or False? sort -k 5rh  would use a KEYDEF to sort data tabular data using the 5th Column of the data, but sort human readable data in a reverse manner.
+(x) True
