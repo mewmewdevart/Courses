@@ -118,3 +118,7 @@ Will the locate  command be able to find important.txt ?
 (x) False
 - True or False? sort -k 5rh  would use a KEYDEF to sort data tabular data using the 5th Column of the data, but sort human readable data in a reverse manner.
 (x) True
+
+#Teste 13: Bash Scripts Quiz
+- What is the purpose of the "she-bang" line in a bash script?
+(x) To let the shell know that the file isn't a normal text file and that it should be interpreted as code using the interpreter defined in the she-bang line.
