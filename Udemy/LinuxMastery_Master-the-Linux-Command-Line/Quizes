@@ -122,3 +122,20 @@ Will the locate  command be able to find important.txt ?
 #Teste 13: Bash Scripts Quiz
 - What is the purpose of the "she-bang" line in a bash script?
 (x) To let the shell know that the file isn't a normal text file and that it should be interpreted as code using the interpreter defined in the she-bang line.
+
+#Teste 14: Software Management Quiz
+- Why would you update the apt-cache?
+(X)	All the questions↙️:
+	To ensure that your package lists are up to date.
+	To make it possible to upgrade software.
+	To download new package lists that ou dont have yet.
+-If you want to update all the software on your system would you use...
+(X) sudo apt-get upgrade
+- True or False? All open-source software is Free Software.
+(X) False
+-True or False? Linux is an Operating System.
+(X)False
+- What command should you use to uninstall a package from your system
+(X)sudo apt-get purge <package name>
+- What command should you use to remove any dangling dependency packages that are no longer required on your system?
+(X) sudo apt-get autoremove
