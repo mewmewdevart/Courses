@@ -1,0 +1,41 @@
+#include <stdio.h>
+void main()
+{
+	printf("1- Qual a funcao que deve estar presente em todas as funeções C\?\n");
+	printf("O main()\n");
+
+	printf("2- Como devem terminar todas as instruções em C\?\n");
+	printf("Com o ;\n");
+
+	printf("3- Como é delimitado um bloco em C\?\n");
+	printf("Com {}\n");
+
+	printf("4- A função printf é parte integrante das linguagem C\?\n");
+	printf("Não, ela percente a biblioteca stdio.h\n");
+
+	printf("5- Para que serve a linha #include <stdio.h> em um programa?\n");
+	printf("Para chamar a biblioteca stdio.h dentro da linguagem C\n");
+
+	printf("6- A extensão .h indica que o arquivo correspondente é composto por ..\?\n");
+	printf("Header, um cabeçalho!\n");
+
+	printf("7- Os arquivos com extensão .h são também conhecidos como?\n");
+	printf("Cabeçalhos!\n");
+
+	printf("8- Por quê razão nao se utilizou a linha #include <stdio.h> no programa prog0101.c\?\n");
+	printf("Porquê o programa estava exibindo a linguagem C \"pura\" sem ter uma biblioteca inserida!\n");
+
+	printf("9- Dentro de uma string pode-se usar letras maiusculas\? Justifique.\n");
+	printf("Sim porquê as letras maiusculas dentro de uma string inserida dentro de um comando de instruções, nao altera os comandos!\n");
+
+	printf("10 -Qual é o significado de Stdio\n");
+	printf("Standart Ouput e Input, algo assim para dizer que aquela biblioteca possui funções que aceitarão comandos de entradas e saidas\n");
+
+	printf("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n");
+	printf("11- Identifique os erros de compilacao que seriam detectados nos seguintes programas\?");
+	printf("11.1 : O main está escrito de forma errada (com letra  maiscula)\n");
+	printf("11.2 : O main nao está declarado como função com as () presentes\n");
+	printf("11.3 : O printf está escrito de forma errada!\n");
+	printf("12.4 : Duas declarações de instruções na mesma função!\n")
+;
+}
