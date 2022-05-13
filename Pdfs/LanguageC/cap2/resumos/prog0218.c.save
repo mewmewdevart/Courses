@@ -1,0 +1,9 @@
+#include <stdio.h>
+
+void main ()
+{
+	long int n_segundos;
+	printf("Digite a quantidade de segundos: ");
+	scanf("%d", &n_segundos);
+	printf("A conversao transforma os segundos );
+}
