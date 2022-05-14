@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+void main ()
+{
+	/*
+
+	01 - Indique qual das desclarações estão corretas
+		e) float f, g, c;  g) char ch1='A',ch2='A';
+
+	02- Uma variavel inteira quando é declarada é sempre iniciada com..
+		c) Um valor aleatorio
+	03 : Indique na seguinte lista quais os identificadores corretos e incorretos de variaveis:
+		a) Valor e)_Kabonga f)Menos h)a10 j)F1
+	04 : O nome de uma variavel..
+	
+	a) Deve indicar aquilo que ela armazena d)Deve ser o mais explicito possivel f)POde, mas nao deve, começar por underscore(_) , g) pode conter mais do que um caractere;
+	*/
+}
