@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+void main()
+{
+	//Escreva um programa que solicite um salario ao utilizador e mostre o imposto a pagar
+	float salario;
+	printf("Qual o salario: ");
+		scanf("%d", &salario);
+	
+}
