@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+void main ()
+{
+	//Reescreva o programa anterior com um switch
+	int number1;
+	printf("Digite um numero inteiro: ");
+	scanf("%d", &number1)
+
+	;
+}

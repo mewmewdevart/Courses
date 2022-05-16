@@ -34,8 +34,24 @@ void main ()
 	   11. Sera que a instrução break, quando apresentada dentro de um if, passa a execução automaticamente para o else?
 		R: Nao!
 	   12. Qual é o valor logico que as seguintes expressoes enviam para o if?
-		R: a) if(10==5) : Se 10 for igual a 5
-		   b) if(()
+		R: a) if(10==5) : FALSO
+		   b) if((2+3) == -(-2-3)) : VERDADE
+		   c) if(x=5) : VERDADE
+		   d) if(x=0) : FALSO
+	   13. Supondo que x=4, y=6 e z=1, qual o valor logico das seguintes expressoes:
+		R: a) if(x==5) FALSO
+		   b) if(x==5 || z < 0) FALSO
+		   c) if(y-x+z-1) VERDADE
+		   d) if(x==4 || y>=z && !(z)) VERDADEIRO NO INICIO
+	   14. Escreva, utilizando um unico if, o seguinte codigo.
+		  if (x==0 || y<=32)
+			printf("Sucesso!!")
+	   15. Identifique os erros de compilação que seriam detectados nos seguintes programas
+		15.1 : O x não recebe nenhuma atribuição
+		15.2 : Não a necessidade de usar o then
+		15.3 : O else dentro do switch nao funciona
+	   16. Escreva um programa de quatro formas distintas, que leia um inteiro e indique se esse inteiro é ou nao igual a zero.
+
 
 	*/
 }
