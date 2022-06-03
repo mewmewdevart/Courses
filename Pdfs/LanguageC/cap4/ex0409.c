@@ -2,18 +2,17 @@
 
 void main ()
 {
-	int linhas;
-	char ramos, galhos;
+	char numeroAlfa, qnt, alfa;
 
-	printf("Digite uma letra do alfabeto: ");
-	scanf("%c", &ramos);
+	printf("Digite um numero: ");
+	scanf("%c", &numeroAlfa);
 
-
-	for(galhos='A'; galhos<=ramos; galhos++)
+	for (qnt='A'; qnt<=numeroAlfa; qnt++)
 	{
-		for(linhas='A'; linhas<=galhos; linhas++)
-		printf("%c", ramos);
-
-		putchar('\n');
+		for (alfa='A'; alfa<=qnt; alfa++)
+		{
+			printf("%c", alfa);
+		}
+	putchar('\n');
 	}
 }

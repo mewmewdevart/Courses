@@ -1,20 +1,18 @@
 #include <stdio.h>
 
-void main ()
+void main()
 {
-	//Escreva um programa que coloque na tela meia arvore de natal com asteriscos. O numero de ramos deverá ser introduzido pelo usuario.
-	int ramos, galhos, linhas;
-	char tipoC;
-	printf ("Digite a quantidade de ramos: ");
-	scanf ("%d", &ramos);
-	printf("Digite o tipo de caractere que a arvore terá: ");
-	scanf(" %c", &tipoC);
+	int N_ramos, qnt, asterisco;
 
-	for (galhos=1; galhos<=ramos; galhos++)
+	printf("Digite um numero: ");
+	scanf("%d", &N_ramos);
+
+	for(qnt=1; qnt<=N_ramos; qnt++)
 	{
-		for (linhas=1; linhas<=galhos; linhas++)
-		printf("%c", tipoC);
-
+		for(asterisco = 1; asterisco<=qnt; asterisco++)
+		{
+			printf("*");
+		}
 		putchar('\n');
 	}
 }

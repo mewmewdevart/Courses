@@ -2,14 +2,16 @@
 
 void main ()
 {
-	/* REESCREVENDO O TRECHO COM UM LAÇO WHILE
 	int i;
-	i=1;
-	while (i<=20)
-		while (i==10)
-			continue;
+	i = 1;
 
-		printf("%d\n", i);
-	
-	*/
+	while(i<=20)
+	{
+		if(i==0)
+			continue;
+		else
+		printf("%2d\n", i);
+
+		i++;
+	}
 }
