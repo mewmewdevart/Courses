@@ -39,28 +39,6 @@ void main ()
 			c) Ping(25); Ao entrar no case 25 do ping, é chamado o pong case 3 em que j=5 e recebe +1  (6) e encerrando a execução da função
 			d) Pong(2);  Entra no case 2 da função pong, e em seguida entre no ping (2), ao entrar na função o processo passa pelo case 2 e case 3 da função, ping,  e  enquanto o i-- exibirá na tela  o calculo 1
 
-		04 - Exercicio de exame
-			int Abs(int x)
-				Devolve o valor absolute de x
-			Abs(-5) -> 5
-			Abs(5)  -> 5
-
-		--
-			int Abs(int x)
-			{
-				if(x>=0)
-					return x;
-				else
-					return -x;
-
-		05 - Exercicio de exame
-			float VAL(float x, int n, float)
-				Devolve o Val(valor atual liqudio para n anos, a taxa de t é definido atraves da seguinte formula
-				VAL = x/(1+t)+x/(1+t)²+x/(1+t)³+ ... + x/(1+t)n
-
-			//Sugestao: Utilize a funao pot, implementada anteiormente
-			}
-
-
+			
 	*/
 }
