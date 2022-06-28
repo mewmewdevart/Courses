@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int Entre(int x, int lim_inf, int lim_sup);
+
+void main ()
+{
+	int num, entre1, entre2;
+
+	printf("O numero: ");
+	scanf("%d", &num);
+
+	printf("Digite dois numeros: ");
+	scanf("%d %d", &entre1, &entre2);
+
+	printf("O numero: %d esta entre %d e %d", Entre( num, entre1, entre2));
+}
+
+int Entre(int x, int lim_inf, int lim_sup)
+{
+	return (x>= lim_inf && x <= lim_sup);
+}
